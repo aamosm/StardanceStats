@@ -33,6 +33,7 @@ LEADERBOARD_FIELDS: dict[str, str] = {
     "devlogs": "stats.devlogs",
     "ships": "stats.ships",
     "projects": "stats.projects",
+    "votes": "stats.votes",
 }
 
 # The same for the project ranking, read off the stat block the ingest builds.

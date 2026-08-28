@@ -128,6 +128,17 @@ export const PEOPLE_METRICS: MetricDef[] = [
 		blurb: 'Ships their profile counts, accepted or not yet reviewed.'
 	},
 	{
+		key: 'votes',
+		label: 'Votes',
+		group: 'Output',
+		accent: 'var(--color-brand-blue)',
+		kind: 'count',
+		field: 'stats',
+		source: 'profile',
+		chartable: true,
+		blurb: 'Votes their profile counts.'
+	},
+	{
 		key: 'likes_received',
 		label: 'Likes',
 		group: 'Reception',
